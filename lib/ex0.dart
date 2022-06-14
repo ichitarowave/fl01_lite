@@ -45,8 +45,9 @@ class _OmikuziPageState extends State<OmikuziPage> {
         centerTitle: true,
         backgroundColor: Colors.yellow,
         title: const Text('おみくじ',
-          style: TextStyle(color: Colors.black),),
-
+          style: TextStyle(color: Colors.black
+          ),
+        ),
       ),
       body: Center(
         child: Column(
